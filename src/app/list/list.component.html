@@ -1,0 +1,21 @@
+
+<p>List works!</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Brand</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let b of bikes">
+      <td>{{ b.model }}</td>
+      <td>{{ b.brand }}</td>
+      <td>{{ b.price }}</td>
+    </tr>
+  </tbody>
+</table>
+
+ <app-form (out)= "out($event)"> </app-form> -->
